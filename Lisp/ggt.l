@@ -1,0 +1,6 @@
+(defun ggt(x y)
+    (if (> (mod x y) 0)
+        (ggt y (mod x y))
+        (print y)
+    )
+)
